@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/tool2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ffffff"></View>
+    
+<android.support.v7.widget.Toolbar
+    android:id="@+id/toolbar"
+    android:minHeight="60dp"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="#ffffff"
+    android:elevation="15dp"
+    android:shadowDx="10"
+    android:shadowDy="10"
+    android:shadowRadius="5"
+    android:shadowColor="#000000"
+    android:alpha="0.7"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <TextView
+        android:id="@+id/scissors"
+        android:drawableTop="@drawable/scissors"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:background="@null"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left|start"
+        android:gravity="center"
+        android:text="Cut"/>
+
+    <TextView
+        android:id="@+id/erase"
+        android:drawableTop="@drawable/erase"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:background="@null"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Eraser"/>
+    <TextView
+        android:id="@+id/repair"
+        android:drawableTop="@drawable/repair"
+        android:layout_width="wrap_content"
+        android:layout_height="53dp"
+        android:clickable="true"
+        android:background="@null"
+        android:layout_marginLeft="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Repair"/>
+
+
+    <TextView
+        android:id="@+id/zoom"
+        android:drawableTop="@drawable/zoom"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:background="@null"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right|end"
+        android:gravity="center"
+        android:text="Zoom"/>
+  
+  
+ 
+</android.support.v7.widget.Toolbar>
+
+</LinearLayout>

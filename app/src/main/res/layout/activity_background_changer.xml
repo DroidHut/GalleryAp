@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dwnld"
+    android:id="@+id/layout_bck_chng"
+    tools:context="com.example.kanishk.galleryapp.BackGroundChangerActivity">
+    
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.7"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
+        android:adjustViewBounds="true"
+        android:scaleType="matrix"
+        android:foregroundGravity="center"/>
+<SeekBar
+    android:id="@+id/seekbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:progressDrawable="@drawable/seek_bar"
+    android:layout_marginTop="10dp"
+    android:progress="0"
+    android:thumbTintMode="multiply"
+    android:max="100"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"/>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tool2"
+        layout="@layout/set_background_adapter"
+        android:gravity="bottom"
+        android:layout_above="@+id/tool_bar"
+        android:layout_gravity="bottom"
+        ></include>
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/tool_bar"
+        layout="@layout/toolbar_background_changer"
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        ></include>
+
+</LinearLayout>

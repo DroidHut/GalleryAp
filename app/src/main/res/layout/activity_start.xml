@@ -1,0 +1,62 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  
+    android:orientation="vertical"
+    android:background="#ffffff"
+    style="NoActionBar"
+    tools:context="com.example.kanishk.galleryapp.StartActivity">
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="@string/select_image"
+        android:textSize="35dp"
+        android:textColor="#ffffff"
+        android:gravity="center"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:background="#3087ff" 
+        android:padding="20dp"
+        android:elevation="10dp"/>
+<LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+    android:layout_below="@+id/text"
+    android:layout_centerInParent="true"
+    android:layout_marginTop="60dp">
+ 
+    <TextView
+        android:id="@+id/camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:text="Camera" 
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        android:gravity="center_horizontal"
+        android:drawableTop="@drawable/camera" />
+    <TextView
+        android:id="@+id/gallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:text="Gallery"
+        android:textSize="18dp"
+        android:elevation="10dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:drawableTop="@drawable/gall" /> 
+
+</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/tool_bck_chng"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#ffffff"></View>
+    
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:minHeight="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#ffffff"
+        android:elevation="15dp"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:shadowColor="#000000"
+        android:alpha="0.8"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        
+
+    <TextView
+        android:id="@+id/smooth"
+        android:drawableTop="@drawable/smoothing"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:background="@null"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="left"
+        android:gravity="center"
+        android:text="Smoothening"/>
+        <TextView
+            android:id="@+id/change_background"
+            android:drawableTop="@drawable/chngbck"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:background="@null"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Change Background"/>
+    <TextView
+        android:id="@+id/save"
+        android:drawableTop="@drawable/saved"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:clickable="true"
+        android:background="@null"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:text="Save"/>
+    </android.support.v7.widget.Toolbar>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<FrameLayout
+    android:id="@+id/fragment_cut"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.kanishk.galleryapp.CutFragment">
+
+    <com.example.kanishk.galleryapp.SomeView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#00FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:scaleType="centerInside" 
+        android:src="@drawable/girl"/>
+
+</FrameLayout>
